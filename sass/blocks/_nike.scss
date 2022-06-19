@@ -1,0 +1,101 @@
+
+
+.nike__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nike__inner-box {
+  margin-top: 177px;
+  text-align: start;
+}
+
+.nike__title {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.nike__text {
+  width: 450px;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  border-left: 3px solid #888888;
+  color: #777777;
+}
+
+.nike__link {
+  padding: 12px 90px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #EA625C;
+}
+
+
+
+.nike__mb-img {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .nike {
+    margin-top: 70px;
+  }
+
+  .nike__inner {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .nike__title {
+    max-width: 280px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+  }
+
+  .nike__img {
+    display: none;
+  }
+
+  .nike__mb-img {
+    display: inline-block;
+    width: 343px;
+    height: 420px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+  .nike__text {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .nike__text {
+    width: 280px;
+    padding-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .nike__mb-img {
+    display: inline-block;
+    width: 280px;
+    height: 360px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+
+}
